@@ -6,7 +6,7 @@ const Skills = () => {
 
     return (
         <div>
-            <h1>Skills</h1>
+            <h1 className={style.title}>Skills</h1>
         </div>
 
     )

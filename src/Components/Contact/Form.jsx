@@ -32,7 +32,7 @@ const Form = () => {
         // event.preventDefault();
         // dispatch(createRecipe(form))
 
-        history.push(`/home`);
+        history.push(`/`);
 
         setForm({
             name: '',

@@ -1,3 +1,7 @@
+.title {
+    color: white;
+}
+
 .nombre {
     background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 250%;
@@ -10,4 +14,6 @@
     height: 200px; 
     border-radius: 50%; 
     border: 3px solid #fff;
+    z-index: 99;
+
 }
