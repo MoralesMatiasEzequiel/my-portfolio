@@ -1,0 +1,13 @@
+.nombre {
+    background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 250%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.imgPerfil {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    border: 3px solid #fff;
+}

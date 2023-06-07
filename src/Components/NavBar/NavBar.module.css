@@ -1,0 +1,38 @@
+.navBar {
+    width: 50%;
+    left: 80%;
+    margin: 0px 0px 30px 50em;
+    /* padding: 35px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, "sans-serif";
+    font-size: 1.2em;
+}
+
+.navBar ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: yellowgreen;
+    position: absolute; 
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.navBar ul li:hover::before {
+    width: 100%;
+}
