@@ -49,7 +49,7 @@ const Form = () => {
     form.message === '';
 
     return(
-        <div>
+        <div id="contact">
             <form className={style.form} onSubmit={handleSubmit}>
                 <div className={style.formHeader}>
                     <h1>C<span className={style.formTitle}>ontact</span></h1>

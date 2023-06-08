@@ -18,26 +18,3 @@ const NavBar = () => {
 
 export default NavBar;
 
-
- // const navLinks = [
-    //     {
-    //       id: 1,
-    //       text: "About",
-    //       href: "#About",
-    //     },
-    //     {
-    //       id: 2,
-    //       text: "Tech",
-    //       href: "#Tech",
-    //     },
-    //     {
-    //       id: 3,
-    //       text: "Portfolio",
-    //       href: "#Portfolio",
-    //     },
-    //     {
-    //         id: 4,
-    //         text: "Contact",
-    //         href: "#Contact",
-    //       },
-    //   ];
