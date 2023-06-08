@@ -11,7 +11,7 @@ const ParticlesBackground = () => {
     
     return (
         <div>
-            <div id="particles-js"></div>
+            <div></div>
             <Particles 
             options={particlesConfig}
             init={particlesInit}

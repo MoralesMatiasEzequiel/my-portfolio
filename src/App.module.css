@@ -2,11 +2,7 @@ body {
     background-color: black;
 }
 
-
-#particles-js {
-	height: 100vh; 
-	width: 100%;
-    position: fixed;
+.particles {
+    position: relative;
     z-index: -1;
 }
-
