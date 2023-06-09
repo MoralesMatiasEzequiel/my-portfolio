@@ -11,10 +11,7 @@ const ParticlesBackground = () => {
     
     return (
         <div>
-            <div></div>
-            <Particles 
-            options={particlesConfig}
-            init={particlesInit}
+            <Particles options={particlesConfig} init={particlesInit}
             />
         </div>
     )

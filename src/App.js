@@ -12,9 +12,15 @@ function App() {
 
   return (
     <div className="App">
+      
       <Route exact path='/'>
         <Home/>
       </Route>
+      
+      <div className={style.graphContainer}>
+        <div className={style.graph}></div>
+      </div>
+      
       <div className={style.particles}>
       <ParticlesBackground/>
       </div>
