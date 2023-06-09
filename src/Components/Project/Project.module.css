@@ -1,5 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
 .title{
+    padding-left: 45%;
+    margin-bottom: 40px;
+    align-items: center;
     color: white;
+    text-decoration: underline;
+}
+
+.subContainer {
+    padding-left: 30px; 
+    padding-right: 100px; 
+
+}
+
+.nameApp{
+    margin-top: 0%;
+    color: rgba(255, 255, 0, 0.76);
 }
 
 .paragraph {
@@ -7,8 +28,35 @@
 }
 
 .imgProject {
-    width: 200px; 
-    height: 200px; 
-    border-radius: 50%; 
-    border: 3px solid #fff;
+    width: 30%; 
+    height: 30%; 
+    padding-left: 100px;
+    border-radius: 3%; 
+}
+
+.containerIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+    padding-left: 200px;
+    gap: 100px;
+    font-size: 40px;
+}
+
+.iconos {
+    color: rgb(209, 60, 159);
+    text-decoration: none;
+
+}
+
+.iconos:hover {
+    color: rgb(196, 19, 137);
+    transform: scale(1.2);
+    transition: 0.6s;
+}
+
+.iconTitle{
+    font-size: 20px;
+  
 }

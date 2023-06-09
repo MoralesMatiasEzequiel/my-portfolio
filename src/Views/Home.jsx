@@ -32,7 +32,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className={style.container}>
+    <div className={style.container} id="home">
       {showNavBar && (
         <div style={{ display: "block", position: "fixed" }}>
           <NavBar />
@@ -41,44 +41,52 @@ const Home = () => {
       <br />
       <br />
       <br />
-      <div id="home">
-        <h1 className={style.title}>
-          Hola,
-          <br />
-          soy <span className={style.nombre}>Matías Morales.</span>
-          <br />
+      <div className={style.header}>
+        <div>
+          <h1 className={style.title}>
+            Hola,
+            <br />
+            soy 
+            <br />
+            <span className={style.nombre}>&lt; Matías</span>
+            <br />
+            <span className={style.nombre}>Morales &gt;</span>
+            <br />
           </h1>
-          <h4 className={style.title}>Full Stack Developer</h4>  
+          <h4 className={style.title}>Full Stack Developer</h4> 
+        </div> 
         <img src={fotoPerfil} alt="" className={style.imgPerfil} />
       </div>
-      <div>
-        <button>
-          <a
-            href="https://wa.link/6b1tuz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Conectame
-          </a>
-        </button>
+      <div className={style.buttons}> 
+        <div className={style.containerButtons}>       
+        <a
+          href="https://wa.link/6b1tuz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={style.boton}>Conectame</button>
+        </a>
+        </div>
+        <div> 
         <a
           href="https://drive.google.com/file/d/1oeMMp5Z4EcbxkYnz5vClSZqqwidIeEoE/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>Descargar CV</button>
+          <button className={style.boton}>Descargar CV</button>
         </a>
+        </div>
       </div>
-      <div id="about">
+      <div id="about" className={style.containerComponents}>
         <About />
       </div>
-      <div id="portfolio">
+      <div id="portfolio" className={style.containerComponents}>
         <Project />
       </div>
-      <div id="skills">
+      <div id="skills" className={style.containerComponents}>
         <Skills />
       </div>
-      <div id="contact">
+      <div id="contact" className={style.containerComponents}>
         <Form />
       </div>
     </div>

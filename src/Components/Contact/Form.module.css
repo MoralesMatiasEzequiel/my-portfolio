@@ -7,12 +7,12 @@
     margin-top: 30px;
     padding-bottom: 30px;
     border-radius: 3px;
-    box-shadow: 12px 17px 51px rgba(168, 35, 35, 0.5);
+    box-shadow: 12px 17px 51px rgba(35, 148, 168, 0.5);
 }
 .formHeader{
     font-weight: normal;
     font-family: sans-serif;
-    color: #ff851b;
+    color: rgb(209, 60, 159);
 }
 .formTitle {
     color: #fff;
@@ -23,7 +23,7 @@
 
 .label {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #ff851b;
+    color: rgb(209, 60, 159);
     font-size: 20px;    
 }
 
@@ -31,7 +31,7 @@
     background: rgba(0, 0, 0, 0.521);
     border: none;
     outline: none;
-    border-bottom: 2px solid #ff851b;
+    border-bottom: 2px solid rgb(209, 60, 159);
     width: 100%;
     padding: 12px;
     padding-right: 0px;
@@ -60,7 +60,7 @@
     width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     outline: none;
-    background: #ff851b;
+    background: rgb(196, 19, 137);
     font-size: 16px;
     border: none;
     color: #fff;
@@ -70,7 +70,8 @@
 }
 
 .button:hover {
-    background: #f29718;
+    background: rgb(209, 60, 159);
+    transition: 0.6s;
 }
 
 .errors {

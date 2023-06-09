@@ -1,7 +1,15 @@
-.title {
+.title{
+    padding-left: 45%;
+    margin-bottom: 40px;
+    align-items: center;
     color: white;
+    text-decoration: underline;
 }
 
 .paragraph {
     color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+
 }
